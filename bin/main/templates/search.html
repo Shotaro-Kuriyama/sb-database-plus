@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>検索画面</title>
+	<!-- 使用するCSSファイル「/css/search.css」を指定 -->
+	<link rel="stylesheet" href="/css/search.css">
+</head>
+<body>
+	<h1>[検索画面]</h1>
+	<h2>検索するカテゴリを選択して下さい</h2>
+
+	<!--リクエストの送信先URLとして「http://localhost:8080/db/result」を指定 -->
+	<form action="/db/result">
+		<!--送信する値に付ける名前として「searchWord」を指定 -->
+        <input type="text" name="searchWord" size="10">
+		<button type="submit">検索</button>
+	</form>
+	
+	
+	
+	
+</body>
+</html>
